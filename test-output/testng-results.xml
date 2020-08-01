@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="11" passed="7" failed="2" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-29T21:48:51 IST" name="Suite" finished-at="2020-07-29T21:48:52 IST" duration-ms="203">
+    <groups>
+      <group name="smoke">
+        <method signature="Day1.Day()[pri:0, instance:Demo1.Day1@184cf7cf]" name="Day" class="Demo1.Day1"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2020-07-29T21:48:51 IST" name="Test" finished-at="2020-07-29T21:48:52 IST" duration-ms="203">
+      <class name="Demo1.Day3">
+        <test-method is-config="true" signature="befSuite()[pri:0, instance:Demo1.Day3@4fe767f3]" started-at="2020-07-29T21:48:51 IST" name="befSuite" finished-at="2020-07-29T21:48:51 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befSuite -->
+        <test-method is-config="true" signature="befMethod()[pri:0, instance:Demo1.Day3@4fe767f3]" started-at="2020-07-29T21:48:52 IST" name="befMethod" finished-at="2020-07-29T21:48:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method signature="toExclude()[pri:0, instance:Demo1.Day3@4fe767f3]" started-at="2020-07-29T21:48:52 IST" name="toExclude" finished-at="2020-07-29T21:48:52 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toExclude -->
+        <test-method is-config="true" signature="aftMethod()[pri:0, instance:Demo1.Day3@4fe767f3]" started-at="2020-07-29T21:48:52 IST" name="aftMethod" finished-at="2020-07-29T21:48:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method is-config="true" signature="befMethod()[pri:0, instance:Demo1.Day3@4fe767f3]" started-at="2020-07-29T21:48:52 IST" name="befMethod" finished-at="2020-07-29T21:48:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method signature="toExclude3()[pri:0, instance:Demo1.Day3@4fe767f3]" started-at="2020-07-29T21:48:52 IST" name="toExclude3" finished-at="2020-07-29T21:48:52 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toExclude3 -->
+        <test-method is-config="true" signature="aftMethod()[pri:0, instance:Demo1.Day3@4fe767f3]" started-at="2020-07-29T21:48:52 IST" name="aftMethod" finished-at="2020-07-29T21:48:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method is-config="true" signature="befMethod()[pri:0, instance:Demo1.Day3@4fe767f3]" started-at="2020-07-29T21:48:52 IST" name="befMethod" finished-at="2020-07-29T21:48:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method signature="toExclude4()[pri:0, instance:Demo1.Day3@4fe767f3]" started-at="2020-07-29T21:48:52 IST" name="toExclude4" finished-at="2020-07-29T21:48:52 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toExclude4 -->
+        <test-method is-config="true" signature="aftMethod()[pri:0, instance:Demo1.Day3@4fe767f3]" started-at="2020-07-29T21:48:52 IST" name="aftMethod" finished-at="2020-07-29T21:48:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method is-config="true" signature="aftSuite()[pri:0, instance:Demo1.Day3@4fe767f3]" started-at="2020-07-29T21:48:52 IST" name="aftSuite" finished-at="2020-07-29T21:48:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftSuite -->
+      </class> <!-- Demo1.Day3 -->
+      <class name="Demo1.Day2">
+        <test-method is-config="true" signature="Day()[pri:0, instance:Demo1.Day2@2805c96b]" started-at="2020-07-29T21:48:51 IST" name="Day" finished-at="2020-07-29T21:48:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Day -->
+        <test-method signature="toInclude(java.lang.String, java.lang.String)[pri:0, instance:Demo1.Day2@2805c96b]" started-at="2020-07-29T21:48:51 IST" name="toInclude" finished-at="2020-07-29T21:48:51 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method toInclude but has not been marked @Optional or defined
+in C:\Users\Lenovo\eclipse-workspace\TestNGTesting\testng1.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method toInclude but has not been marked @Optional or defined
+in C:\Users\Lenovo\eclipse-workspace\TestNGTesting\testng1.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:289)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:895)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:762)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:60)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:39)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:771)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toInclude -->
+        <test-method is-config="true" signature="befMethod1()[pri:0, instance:Demo1.Day2@2805c96b]" started-at="2020-07-29T21:48:51 IST" name="befMethod1" finished-at="2020-07-29T21:48:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod1 -->
+        <test-method signature="catchData(java.lang.String, java.lang.String)[pri:0, instance:Demo1.Day2@2805c96b]" started-at="2020-07-29T21:48:51 IST" name="catchData" data-provider="MultipleSets" finished-at="2020-07-29T21:48:51 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mayu1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pav1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- catchData -->
+        <test-method is-config="true" signature="aftMethod1()[pri:0, instance:Demo1.Day2@2805c96b]" started-at="2020-07-29T21:48:51 IST" name="aftMethod1" finished-at="2020-07-29T21:48:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod1 -->
+        <test-method is-config="true" signature="befMethod1()[pri:0, instance:Demo1.Day2@2805c96b]" started-at="2020-07-29T21:48:51 IST" name="befMethod1" finished-at="2020-07-29T21:48:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod1 -->
+        <test-method signature="catchData(java.lang.String, java.lang.String)[pri:0, instance:Demo1.Day2@2805c96b]" started-at="2020-07-29T21:48:51 IST" name="catchData" data-provider="MultipleSets" finished-at="2020-07-29T21:48:51 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mayu2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pav2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- catchData -->
+        <test-method is-config="true" signature="aftMethod1()[pri:0, instance:Demo1.Day2@2805c96b]" started-at="2020-07-29T21:48:51 IST" name="aftMethod1" finished-at="2020-07-29T21:48:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod1 -->
+        <test-method is-config="true" signature="befMethod1()[pri:0, instance:Demo1.Day2@2805c96b]" started-at="2020-07-29T21:48:51 IST" name="befMethod1" finished-at="2020-07-29T21:48:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod1 -->
+        <test-method signature="catchData(java.lang.String, java.lang.String)[pri:0, instance:Demo1.Day2@2805c96b]" started-at="2020-07-29T21:48:51 IST" name="catchData" data-provider="MultipleSets" finished-at="2020-07-29T21:48:51 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mayu3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pav3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- catchData -->
+        <test-method is-config="true" signature="aftMethod1()[pri:0, instance:Demo1.Day2@2805c96b]" started-at="2020-07-29T21:48:51 IST" name="aftMethod1" finished-at="2020-07-29T21:48:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod1 -->
+        <test-method is-config="true" signature="befMethod1()[pri:0, instance:Demo1.Day2@2805c96b]" started-at="2020-07-29T21:48:51 IST" name="befMethod1" finished-at="2020-07-29T21:48:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod1 -->
+        <test-method signature="toInclude5()[pri:0, instance:Demo1.Day2@2805c96b]" started-at="2020-07-29T21:48:52 IST" name="toInclude5" finished-at="2020-07-29T21:48:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toInclude5 -->
+        <test-method is-config="true" signature="aftMethod1()[pri:0, instance:Demo1.Day2@2805c96b]" started-at="2020-07-29T21:48:52 IST" name="aftMethod1" finished-at="2020-07-29T21:48:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod1 -->
+        <test-method signature="Apanpahile()[pri:0, instance:Demo1.Day2@2805c96b]" started-at="2020-07-29T21:48:52 IST" name="Apanpahile" finished-at="2020-07-29T21:48:52 IST" depends-on-methods="Demo1.Day2.toInclude" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Day2.Apanpahile()[pri:0, instance:Demo1.Day2@2805c96b] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Day2.Apanpahile()[pri:0, instance:Demo1.Day2@2805c96b] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:99)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Apanpahile -->
+        <test-method is-config="true" signature="dayLast()[pri:0, instance:Demo1.Day2@2805c96b]" started-at="2020-07-29T21:48:52 IST" name="dayLast" finished-at="2020-07-29T21:48:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dayLast -->
+      </class> <!-- Demo1.Day2 -->
+      <class name="Demo1.Day1">
+        <test-method signature="Day()[pri:0, instance:Demo1.Day1@184cf7cf]" started-at="2020-07-29T21:48:51 IST" name="Day" finished-at="2020-07-29T21:48:51 IST" duration-ms="15" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect to find [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect to find [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at Demo1.Day1.Day(Day1.java:14)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Day -->
+      </class> <!-- Demo1.Day1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
