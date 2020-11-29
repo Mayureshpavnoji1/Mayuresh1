@@ -4,8 +4,7 @@
   <test thread-count="5" name="Test">
   
     <classes>
-      <class name="Demo1.Day2"/>
-      <class name="Demo1.Day1"/>
+
        <class name="Demo1.Day3"/>
     </classes>
     

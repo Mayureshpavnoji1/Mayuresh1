@@ -49,14 +49,9 @@ public class Day2 {
 	data [2][0] = "Mayu3";
 	data [2][1] = "Pav3";
 	
-	return data;
-	
-	
-	
-		
-		
+	return data;		
 	}
-		@Test (dependsOnMethods = {"toInclude"})
+		@Test (dependsOnMethods = "toInclude")
 		public void Apanpahile() {
 			System.out.println("Alpha madhe pahile");
 		}

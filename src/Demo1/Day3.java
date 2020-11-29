@@ -12,7 +12,7 @@ public class Day3 {
 	
 	
 	
-@BeforeMethod
+@BeforeMethod (enabled  = false)
 	
 	public void befMethod() {
 		System.out.println("I will  execute Before Medhod");
@@ -20,7 +20,7 @@ public class Day3 {
 		
 
 }
-	@Test
+	@Test(dependsOnMethods = "befMethod")
 	
 	
 	public void toExclude(){

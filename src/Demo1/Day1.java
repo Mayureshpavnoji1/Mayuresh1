@@ -13,6 +13,17 @@ public class Day1 {
 			
 			Assert.assertTrue(false);
 		}
-	}
+	
+
+
+@Test(groups = {"smoke"})
+public void first() {
+	
+}
+
+}
+
+
+
 
 
