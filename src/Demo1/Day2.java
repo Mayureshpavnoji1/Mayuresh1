@@ -81,6 +81,24 @@ public void aftMethod1() {
 	public void toInclude5() {
 		System.out.println("Yippee");
 	}
+	
+	
+	
+	@Test
+	public void toInclude5() {
+		System.out.println("Yippee");
+	}
+	
+	
+	@Test
+	public void toInclude5() {
+		System.out.println("Yippee");
+	}
+	
+	@Test
+	public void toInclude5() {
+		System.out.println("Yippee");
+	}
 @AfterTest
 	
 	public void dayLast() {
