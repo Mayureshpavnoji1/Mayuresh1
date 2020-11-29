@@ -83,6 +83,13 @@ public void aftMethod1() {
 	}
 	
 	
+	
+	@Test
+	public void toInclude6() {
+		System.out.println("Yippee");
+	}
+	
+	
 
 @AfterTest
 	
